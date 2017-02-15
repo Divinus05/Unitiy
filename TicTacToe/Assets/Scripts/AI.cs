@@ -22,7 +22,7 @@ public class AI{
         var castedList = buttonList.ToList();
         do
         {
-            result = this.rand.Next(0, 10);
+            result = this.rand.Next(0, 9);
             Debug.Log("Wanting to move to " + result);
         } while (!string.IsNullOrEmpty(castedList[result].buttonText.text));
 
