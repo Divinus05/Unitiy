@@ -178,12 +178,12 @@ public class GameController : MonoBehaviour {
             this.SetPlayerColors(playerO, playerX);
         }
 
-        if(this.playerSide == this.AiSide)
-        {
-            var move = this.artificialIntelligence.Move(this.buttonList);
-            this.buttonList[move].SetSpace();
-            this.EndTurn();
-        }
+        //if(this.playerSide == this.AiSide)
+        //{
+        //    var move = this.artificialIntelligence.Move(this.buttonList);
+        //    this.buttonList[move].SetSpace();
+        //    this.EndTurn();
+        //}
     }
 
     private void SetGameOverText(string value)
